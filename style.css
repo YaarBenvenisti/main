@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Minimal Mono Bold";
+    src: url("fonts/minimal-mono-bold.woff2") format("woff2");
+}
+
+@keyframes letter-spacing {
+    60% {letter-spacing: 0.005em;}
+}
+
+* {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Minimal Mono Bold";
+    line-height: 1.95em;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 9vw;
+    position: relative;
+    line-height: 0.7em;
+    text-align: center;
+    animation: letter-spacing 4s infinite;
+    padding: 10px;
+    margin: 4px;
+}
+
+#nyt {
+    position: absolute;
+    left: 35%;
+}
